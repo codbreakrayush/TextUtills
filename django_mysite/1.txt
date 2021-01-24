@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Page Title</title>
+    <style>
+        p {
+            background-color: white;
+        }
+
+        a:link {
+            color: yellowgreen;
+            background-color: whitesmoke;
+            text-decoration: none;
+        }
+
+        img {
+            float: right;
+        }
+        body 
+        {
+            background-image: url('11808.jpg');
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size: cover;
+            background-origin:unset;
+        }
+        table,td,th{
+            border-bottom: 1px solid silver;
+            border-collapse: collapse;
+            border-spacing: 5px;    /*It has no efferc if collapsed is selected in border collapse instead of separate*/
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+            background-color:white;
+        }
+        th:hover,td:hover{background-color:silver;}
+        th{
+            background-color:skyblue;
+            height:40px;
+        }
+        tr:nth-child(even){background-color:silver;}
+        table#Songs{
+            background-image: url('11798.jpg');
+        }
+        ul#songs{
+            list-style-type:circle;
+        }
+        ol#songs{
+            list-style-type:upper-alpha;
+        }
+        .Ayush {
+            Background-image: url('11798.jpg');
+        }
+        .Rathore {
+            Background-color:whitesmoke;
+        }
+        #ayush{
+            Background-image:url('11798.jpg');
+        }
+        iframe {
+            border:none;
+        }
+        button.a1{
+            color:black;
+            background-color:white;
+            border:2px solid rgb(30, 156, 64);
+            padding:10px;
+            font-weight:bold;
+            align:right;
+        }
+        button.a1:hover{
+            background-color:rgb(30, 156, 64);
+            color:white;
+        }
+    </style>
+    <base target="_blank">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body style="background-color:rgb(181, 109, 240);">
+    <a href="#bottom" id="top" target="_self">Go to Bottom of the Page</a>
+    <h1 style="font-family:verdana; font-size:300%; text-align:center;"><u><i><b>My first <span style="color:red;">Important</span> Heading</b></i></u></h1>
+    <p style="color:green;" id="p1">My first paragraph.</p>
+    Kya baat hai...<br>Kya baat hai...<br>Kya baat hai Sahi hai<br>
+    <a href="https://www.starwars.com" target="_blank"><img src="11798.jpg" alt="Star Wars" width="500" height="300"></a><br>
+    <!--Image source should be inside the HTML folder-->
+    <a href="https://www.youtube.com/feed/subscriptions" target="_blank"><button>youtube</button></a>
+    <a href="https://www.youtube.com" target="_self"
+        style="background-color: #f44336; color: white; padding: 15px 25px; text-align: center; 
+        text-decoration: none; display: inline-block; font-family: 'Times New Roman', Times, serif; font-size: x-large;">Click
+        here to open youtube</a>
+    <hr>
+    <a href="#Ayush" id="ayush">Click here to go to the heading 2.</a>
+    <p title="Nice paragraph">This is another paragraph.</p>
+    <pre>
+            Everybody fuck your job.
+            Actually nobody fuck your job.
+        </pre>
+    <strong>Dimaaag me chapeli</strong><br>
+    <em>Dus <small>menu</small> na na na</em><br>
+    Pyaar <mark style="color:cadetblue; background-color: chocolate;">tenu</mark> <del>karde</del> <ins>gabru</ins>.<br>
+    Nobody's gonna <sub>tell</sub> me.<br>Someone said:
+    <q>Ain't gonna come out here.</q>
+    <!--Here <q> - for writing quotation. <sub>- subscripting-->
+    <br>
+    <blockquote>Sab kuch chad ke.</blockquote>
+    <abbr title="Iski Topi Uske Sar">ITUS</abbr>
+    <!--title-when you put your cursor on something it shows the title. abbr=Abbreviations=Short Forms-->
+    <address>Mera ghar.<br>No Welcome.</address>
+    <cite>Mere liye tum kaafi ho -</cite>Shamil kiya he ibadat ne.
+    <!--<cite> used for work title--><br>
+    <bdo>Haye re meri moto</bdo>
+    <!--It writes the text from right to left(If the browser supports)--><br>
+    <h1 style="border: 2px solid tomato; background-color: violet;">Lamba rise chahiye</h1>
+    <button onclick="">Google</button>
+    <!--This button will be of use after  studying javascript tutorial--><br>
+    <hr><br>
+    <hr><br>
+    <img src="https://images.unsplash.com/photo-1534809027769-b00d750a6bac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        alt="MARVEL" height="300" width="200" usemap="#spiderman"><br>
+    <!--<map name="spiderman">
+        <area shape="circle" coords="">
+    </map>-->
+    <a href="#top" id="bottom">Go to top of the Page</a>
+    <table style="width:100%" id="Songs">
+    <caption>Bs Aise hi kuch bhi</caption>
+    <tr>
+        <th>Song name</th>
+        <th>Rating</th>
+        <th colspan="2">F.R.I.E.N.D.S</th>
+    </tr>
+    <tr>
+        <td>Sheher ki ladki</td>
+        <td>8</td>
+        <td>Chandler</td>
+        <td>Monica</td>
+    </tr>
+    <tr>
+        <td>Maseerati</td>
+        <td>5</td>
+        <td>Joey</td>
+        <td>Phoebe</td>
+    </tr>
+    <tr>
+        <td>loca</td>
+        <td>3</td>
+        <td>Ross</td>
+        <td>Rachel</td>
+    </tr>
+    </table>
+    <ul id="songs">
+        <li>Dus bahaane</li>
+        <li>Aasmaa me  jaise</li>
+        badal ho rhe hai
+        <li>me toh marjaana hai</li>
+    </ul>
+    <ol id="songs">
+        <li>haye garmi</li>
+        <li>tu lamberghini</li>
+        <li>teri sundarta pe</li>
+    </ol>
+    <dl>
+        <dt>Proper Patola</dt>
+        <dd>tui tui tui tui tu tu</dd>
+    </dl>
+    <div class="Ayush">Yaad piya ki aane lagi</div>
+    <h2 class="Ayush" id="Ayush">Kb wo din aayega jb hum bhi mehendi lgwaayenge</h2>
+    <p class="Rathore">Haye bheegi bheegi raaton mein</p>
+    <iframe src="www.marvel.com" height="600" width="1200" name="Ayush"></iframe>
+    <a href="https://www.google.com" target="Ayush">Click here to open the site in iframe</a>
+    <picture>
+        <source srcset="11798.jpg" media ="(max-width:1500px)">
+        <source srcset="11808.jpg" media="(max-width:500px)">
+        <source srcset="Screenshot(22).png">
+        <img src="11808.jpg" alt="Star Wars" width="500" height="300">
+    </picture>  
+    <!-- this whole picture inside is used to change the picture according to the device -->
+    <br>
+    <button type="button" onclick="alert('Aw..Snap')">Snap</button><!--After click on this button this will alert something--><br>
+    <a href="Computer_Codes.html" class="a1" target="_blank"><button class="a1">Next Page</button></a>
+
+</body>
+</html>
